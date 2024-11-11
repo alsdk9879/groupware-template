@@ -1,8 +1,14 @@
 let _ip = '';
 let _user = null;
 const autoLogin = window.localStorage.getItem('autoLogin') === 'true';
-const SERVICE_ID = 'ap21T837jUF8IFyfR98Z';
-const OWNER_ID = 'f498d188-1fa5-43e5-a32d-904d3e125983';
+
+// oma
+// const SERVICE_ID = 'ap21T837jUF8IFyfR98Z';
+// const OWNER_ID = 'f498d188-1fa5-43e5-a32d-904d3e125983';
+
+// qb
+const SERVICE_ID = 'ap21T7fhHOcU2HgaCmGr';
+const OWNER_ID = '5750ee2c-f7f7-43ff-b6a5-cce599d30101';
 const _bleedingEdge = { hostDomain: 'skapi.app', target_cdn: 'd1wrj5ymxrt2ir', network_logs: true }; // 테스트 망에서의 옵션
 
 const skapi = new Skapi(SERVICE_ID, OWNER_ID, { autoLogin }, _bleedingEdge);
