@@ -41,10 +41,10 @@ skapi.getConnectionInfo().then((info) => {
 });
 
 // 사용자 로그인 콜백. 사용자가 로그인, 로그아웃, 프로필수정 하면 호출됨. 로그아웃하면 null이 넘어옴
-skapi.onLogin = (user) => {
-  _user = user;
-  console.log(_user);
-  if (user === null) {
-    window.location = "index.html"; // 로그인 페이지로 이동
-  }
-};
+// skapi.onLogin = (user) => {
+//   _user = user;
+//   console.log(_user);
+//   if (user === null) {
+//     window.location = "index.html"; // 로그인 페이지로 이동
+//   }
+// };
