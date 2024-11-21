@@ -44,7 +44,7 @@ skapi.getConnectionInfo().then((info) => {
 // skapi.onLogin = (user) => {
 //   _user = user;
 //   console.log(_user);
-//   if (user === null) {
-//     window.location = "index.html"; // 로그인 페이지로 이동
-//   }
+//   // if (user === null) {
+//   //   window.location = "index.html"; // 로그인 페이지로 이동
+//   // }
 // };

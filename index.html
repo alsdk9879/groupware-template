@@ -44,9 +44,10 @@
 
     // 콜백 여러번 등록 가능
     skapi.onLogin = (user) => {
+        _user = user;
         // 이 패이지에 있을 때만 main으로 이동
-        if(window.location.pathname === '/index.html') {
-            window.location.href = 'main.html';
-        }
+        // if(window.location.pathname === '/index.html') {
+        //     window.location.href = 'main.html';
+        // }
     }
 </script>
