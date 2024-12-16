@@ -7,7 +7,7 @@ const autoLogin = window.localStorage.getItem("autoLogin") === "true";
 // const OWNER_ID = 'f498d188-1fa5-43e5-a32d-904d3e125983';
 
 // qb
-const SERVICE_ID = "ap21UAo9MdRQtaQ8CmGr";
+const SERVICE_ID = "ap21WQQ42ZUVa3GYCmGr";
 const OWNER_ID = "5750ee2c-f7f7-43ff-b6a5-cce599d30101";
 const _bleedingEdge = {
   hostDomain: "skapi.app",
